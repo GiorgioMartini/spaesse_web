@@ -100,6 +100,15 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   ::selection {
+     color: #fff;
+     background: #D0C473; /* WebKit/Blink Browsers */
+   }
+   ::-moz-selection {
+     color: #fff;
+     background: #D0C473; /* Gecko Browsers */
+   }
+
 
 @media (min-width: 1200px){
   .container {
@@ -109,6 +118,30 @@ textarea {
 .logo{
 width: 100%;
   margin: 2em 0 3em 0;
+  display: none;
+}
+
+.logo-text-wrapper{
+ font-family: 'Libre Baskerville', serif;
+  text-align: center;
+  margin: 1em 0 6em 0;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.logo-text{
+  font-family: 'Libre Baskerville', serif;
+  font-size: 8vw;
+  display: block;
+  color: #D0C473;
+}
+
+
+.slogan{
+  font-size: 1.5vw;
+  color: #6C6C6C;
 }
 
 .main{
@@ -121,9 +154,17 @@ width: 100%;
   text-align: left;
 }
 
+.bbock{
+  padding: 4em 0 1em 0;
+  }
+
+.lebenslauf{
+  padding: 0 7em 0 7em;
+}
+
 .hkret{
   text-align: center;
-  margin-bottom: 10em;
+  margin-bottom: 5em;
 }
 
 .hkret-text{
@@ -139,6 +180,10 @@ width: 100%;
   height: 50px;
 }
 
+.poems-slider{  
+    padding: 2em 1em 1em 1em;
+    border: 1px solid;
+}
 
 
 /* ==========================================================================
