@@ -16,6 +16,12 @@ html {
     line-height: 1.4;
 }
 
+
+body{
+  font-family: 'Open Sans', 'Oxygen', sans-serif;
+  font-size: 1em;
+  font-weight: lighter;
+}
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -95,8 +101,14 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+@media (min-width: 1200px){
+  .container {
+    width: 970px;
+  }
+}
 .logo{
 width: 100%;
+  margin: 2em 0 3em 0;
 }
 
 .main{
@@ -109,19 +121,23 @@ width: 100%;
   text-align: left;
 }
 
-.hk1{
-  width: 50%;
+.hkret{
+  text-align: center;
+  margin-bottom: 10em;
 }
 
-.hk2{
-  width: 50%;
+.hkret-text{
+  text-align: left;
+  padding-top: 5em;
 }
 
+.poems-slideshow-wrapper {
+  text-align: center;
+}
 
-
-
-
-
+.flex-direction-nav a {
+  height: 50px;
+}
 
 
 
