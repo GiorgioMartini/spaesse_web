@@ -117,7 +117,12 @@ textarea {
   }
 }
 
+.logo-wrapper{
+  text-align: center;
+}
+
 .logo{
+  max-width: 666px;
 width: 100%;
   margin: 2em 0 3em 0;
 }
