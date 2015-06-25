@@ -116,33 +116,10 @@ textarea {
     width: 970px;
   }
 }
+
 .logo{
 width: 100%;
   margin: 2em 0 3em 0;
-  display: none;
-}
-
-.logo-text-wrapper{
- font-family: 'Libre Baskerville', serif;
-  text-align: center;
-  margin: 1em 0 6em 0;
-}
-
-.text-center{
-  text-align: center;
-}
-
-.logo-text{
-  font-family: 'Libre Baskerville', serif;
-  font-size: 8vw;
-  display: block;
-  color: #D0C473;
-}
-
-
-.slogan{
-  font-size: 1.5vw;
-  color: #6C6C6C;
 }
 
 .main{
