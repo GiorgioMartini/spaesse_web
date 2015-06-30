@@ -22,6 +22,7 @@ body{
   font-family: 'Oxygen', sans-serif;
   font-size: 1em;
   font-weight: lighter;
+  background-image: url(../img/bg.jpg);
 }
 /*
  * Remove text-shadow in selection highlight:
@@ -114,12 +115,33 @@ textarea {
 @media (min-width: 1200px){
   .container {
     width: 970px;
+    background-color: #FFF;
+      margin-top: 5em;
   }
+}
+
+.slogan{
+  font-size: 1.2em;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  line-height: 5px;
+}
+
+.anchors, .anchors:hover{
+text-decoration: none;
+font-weight: bold;
+color: #000;
+margin: 0 auto;
+text-align: center;
+display: block;
+font-size: 1.2em;
 }
 
 .logo-wrapper{
   text-align: center;
 }
+
 
 .logo{
   max-width: 666px;
