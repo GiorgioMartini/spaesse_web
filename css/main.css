@@ -42,6 +42,11 @@ body{
     text-shadow: none;
 }
 
+
+.center{
+  text-align: center;
+}
+
 /*
  * A better looking default horizontal rule
  */
@@ -120,7 +125,19 @@ textarea {
   }
 }
 
+
+.container{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.libre{
+  font-family:'Libre Baskerville';
+
+}
+
 .slogan{
+  font-family:'Libre Baskerville';
   font-size: 1.2em;
   margin: 0 auto;
   text-align: center;
