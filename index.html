@@ -15,9 +15,6 @@
         <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700' rel='stylesheet' type='text/css'>
         <!-- LIGHTBOX-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-        <script src="js/lightbox.min.js"></script>
-        <link href="css/lightbox.css" rel="stylesheet">
-
         <link rel="stylesheet" href="css/flexslider.css" type="text/css">
         <script src="js/jquery.flexslider.js"></script>
 
@@ -30,6 +27,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -42,12 +40,13 @@
           </div>
 
           <ul class="menu">
-            <li>Über uns</li>
-            <li>Gedichte</li>
-            <li>Lebenslaufe</li>
-            <li>Fotos</li>
-            <li>Kurzgeschichten</li>
-            <li>Kontakt</li>
+            <li><a href="#uber" to="uber" class="active">Über uns</a></li>
+            <li><a href="#Gedichte" to="Gedichte" class="active">Gedichte</a></li>
+            <li><a href="#Lebenslaufe" to="Lebenslaufe" class="active">Lebenslaufe</a></li>
+            <li><a href="#Fotos" to="Fotos" class="active">Fotos</a></li>
+            <li><a href="#Kurzgeschichten" to="Kurzgeschichten" class="active">Kurzgeschichten</a></li>
+            <li><a href="#Kontakt" to="Kontakt" class="active">Kontakt</a></li>
+
           </ul>
 
           <ul>
@@ -65,7 +64,7 @@
 
 
 
-          <a class="anchors libre" href="#uber"> <h2>Über Uns</h2> </a>
+           <a name="uber"><h2 class="libre text-center">Über Uns</h2></a>
           <div class="intro">
             <p>Meine Damen und Herren,<br>ich begrüße Sie.</p>
             <p>Möglicher Weise begegneten wir uns schon bei der Buchlesung zu „Bock Späße“ persönlich. Insofern kennen Sie meine Frohsinngedichte schon und möchten sie sich noch einmal zuhause anhören, das freut mich. Sie, die Sie noch keine Besucher in unserer Veranstaltung waren, möchte ich erst einmal herzlich begrüßen und mit wenigen Worten auf unser Hörbuch einstimmen. </p>
@@ -79,7 +78,8 @@
           </div>
 
           <div class="poems-slideshow-wrapper">
-            <h2 style="font-family:'Libre Baskerville';">Kurze Gedichte</h2>
+            <a name="Gedichte"><h2 class="libre text-center">Gedichte</h2></a>
+
             <br>
             <div class="flexslider poems-slider poster">
               <ul class="slides">
@@ -139,23 +139,23 @@
               </ul>
             </div>
           </div>
+          <a name="Kurzgeschichten"><h2 class="libre text-center">Kurzgeschichten</h2></a>
 
-          <h2 style="font-family:'Libre Baskerville';" class="center">Kurtze Geschte</h2>
           <br>
           <div class="flexslider poster">
             <ul class="slides">
               <li>
-                Kurze geschichte
+                Kurzgeschichten
               </li>
             </ul>
           </div>
 
+          <br><br><a name="Lebenslaufe"><h2 class="libre text-center">Lebenslaufe</h2></a>
           <div class="bbock">
-            <h2 class="text-center" style="font-family:'Libre Baskerville';"> Bernhard Bock</h2>
-            <br><br>
-            <p>Bernhard Bock, geb. 25.09.1936 in Berlin, Ist der inhaltliche Finder der vorliegenden Frohsinngedichte, der Verseschmied der „Bock Späße“.</p>
+            <h2 class="text-center libre"> Bernhard Bock</h2> <br>
+            <p class="margin-sides">Bernhard Bock, geb. 25.09.1936 in Berlin, Ist der inhaltliche Finder der vorliegenden Frohsinngedichte, der Verseschmied der „Bock Späße“.</p>
             <br>
-            <p>Aus seinem Lebenslauf:</p>
+            <p class="margin-sides">Aus seinem Lebenslauf:</p>
             <br>
             <div class="lebenslauf">
             <div class="row">
@@ -179,12 +179,12 @@
             </div>
           </div>
           <div class="bbock">
-            <h2 class="text-center" style="font-family:'Libre Baskerville';"> Marion</h2>
+            <h2 class="text-center libre"> Marion Bock</h2>
             <br>
             <br>
             <div class="lebenslauf">
             <div class="row">
-              <p>ist die „Co-Pilotin“, auf Veranstaltungen, bei der Lesung der „Bock-Späße“ und war auch die inhaltliche Lektorin meiner Frohsinngedichte.</p>
+              <p class="margin-sides">ist die „Co-Pilotin“, auf Veranstaltungen, bei der Lesung der „Bock-Späße“ und war auch die inhaltliche Lektorin meiner Frohsinngedichte.</p> <br>
               <div class="col-xs-12 col-md-6 text-center">
                 <img style="height:400px" src="img/marion.jpg" alt="">
               </div>
@@ -220,12 +220,48 @@
             </div>
           </div>
 
-          <div class="">
-            <h2 class="text-center" style="font-family:'Libre Baskerville';">Micha</h2>
-            <br><br>
-          </div>
+          <div class="row">
+            <h2 class="text-center libre">Michael Engelke</h2> <br>
+            <p class="margin-sides">begleitet uns musikalisch auf der Gitarre bei unseren Lesungen und gestaltete das musikalische Konzept zu unserem Programm.  Er ist ein Musiker mit Leib und Seele.</p> <br>
+            <div class="col-sm-12 col-md-6 text-center">
+              <img class="poster" src="img/Foto Michael.jpg" alt="Kretzschmar Eigenkarikatur">
+            </div>
+            <div class="col-sm-12 col-md-6 hkret-text">
+              <ul>
+                <li>Erste Kontakte zur Musik in der Gruppe „Morgenstern“</li>
+                <li>Gesangsstudium an der Hochschule für Musik „Hans Eisler“</li>
+                <li>Solodiplom an der Hochschule „C.M. von Weber in Dresden</li>
+                <li>Dirigierunterricht bei Prof. Horst Müller</li>
+              </ul>
+            </div>
+            </div>
+
+          <br><br><br><br>
+
+          <div class="row">
+            <h2 class="text-center libre">Manuel Schmid</h2> <br>
+            <p class="margin-sides">Seine Leidenschaft zur Musik entdeckte Manuel Schmidt schon im Alter von 7 Jahren. Als Sänger und Keyboarder ist er seit dem Jahre 2000 in Sachen Musik unterwegs.</p> <br>
+            <div class="col-sm-12 col-md-6 text-center">
+              <img class="poster" src="img/Manuel.jpg" alt="Kretzschmar Eigenkarikatur">
+            </div>
+            <div class="col-sm-12 col-md-6 hkret-text">
+              <ul>
+                <li>Klavier und Gesangsunterricht an den Musikschulen Altenburg und Borna</li>
+                <li>Tontechnik-Studium am SAE-Institut Leipzig mit Abschluss</li>
+                <li>seit 2008 Pianist beim Altenburger Gospelchor „Colours of Soul“</li>
+                <li>seit 2000 Sänger und Pianist im kammermusikalischen Ensemble „eccolo“</li>
+                <li>Seit 2012 Sänger und Keyboarder der ostdeutschen Altrocklegende „Stern-Combo-Meißen“.</li>
+                <li>Manuel Schmid wirkt neben seinem Engagement als Solokünstler in verschiedenen musikalischen Projekten als Musiker, Produzent und Tontechniker mit.   </li>
+              </ul>
+
+            </div>
+            </div>
+
+          <br><br><br><br>
 
 
+          <a name="Fotos"><h2 class="libre text-center">Fotos</h2></a>
+          <br><br>
           <div class="imgs-slideshow">
             <div class="img-slideshow-wrapper">
               <div class="flexslider poster">
@@ -262,9 +298,114 @@
             </div>
           </div>
           <br><br><br>
+
+
+
+          <div class="row">
+            <h2 class="text-center libre">Hörbuch</h2> <br>
+            <div class="col-sm-12 col-md-6 text-center">
+
+              <div class="imgs-slideshow">
+                <div class="img-slideshow-wrapper">
+                  <div class="flexslider poster">
+                    <ul class="slides">
+                      <li>
+                        <img src="img/cd.jpg" />
+                      </li>
+                      <li>
+                        <img src="img/hor/1.jpeg" />
+                      </li>
+                      <li>
+                        <img src="img/hor/2.jpeg" />
+                      </li>
+                      <li>
+                        <img src="img/hor/3.jpeg" />
+                      </li>
+                      <li>
+                        <img src="img/hor/4.jpeg" />
+                      </li>
+                      <li>
+                        <img src="img/hor/5.jpeg" />
+                      </li>
+                      <li>
+                        <img src="img/hor/6.jpeg" />
+                      </li>
+                      <li>
+                        <img src="img/hor/7.jpeg" />
+                      </li>
+                      <li>
+                        <img src="img/hor/8.jpeg" />
+                      </li>
+                      <li>
+                        <img src="img/hor/9.jpeg" />
+                      </li>
+                      <li>
+                        <img src="img/hor/10.jpeg" />
+                      </li>
+                      <li>
+                        <img src="img/hor/11.jpeg" />
+                      </li>
+                      <li>
+                        <img src="img/hor/12.jpeg" />
+                      </li>
+                      <li>
+                        <img src="img/hor/13.jpeg" />
+                      </li>
+                      <li>
+                        <img src="img/hor/14.jpeg" />
+                      </li>
+                      <li>
+                        <img src="img/hor/15.jpeg" />
+                      </li>
+                      <li>
+                        <img src="img/hor/16.jpeg" />
+                      </li>
+                      <li>
+                        <img src="img/hor/17.jpeg" />
+                      </li>
+                      <li>
+                        <img src="img/hor/18.jpeg" />
+                      </li>
+                      <li>
+                        <img src="img/hor/19.jpeg" />
+                      </li>
+                      <li>
+                        <img src="img/hor/20.jpeg" />
+                      </li>
+                      <li>
+                        <img src="img/hor/21.jpeg" />
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+
+
+            </div>
+            <div class="col-sm-12 col-md-6 hkret-text">
+              <p>Wenn Jemanden etwas gefällt, dann möchte er es auch oft mit nach Hause nehmen...<br />
+              Daran ist gedacht worden und das Hörbuch mit dem Titel: „Bock Späße“ ist entstanden.</p>
+              <p>Das kann nach einer Lesung erworben und mitgenommen werden. Zu Hause ist es dem gewesenen Besucher dann möglich, die Hörfreude aus der Veranstaltung noch einmal nachzuvollziehen, ja vielleicht sogar noch zu vertiefen, denn alle vorgetragenen Gedichte finden sich auf der CD wieder,<br />
+              auch mit Musik - und sogar Effekte haben sich in das Hörbuch „eingeschlichen“ - Sie dürfen gespannt sein.</p>
+              <p>Sowohl den guten Ton und die musikalische Mitgestaltung, als auch die Produktion dieses Hörbuches haben wir Manuel Schmid, Sänger und Keyboarder der „Stern-Combo-Meißen“, ebenfalls Audio-Ingenieur seines Zeichens, zu verdanken. Für das vorliegende Hörbuch haben Michael Engelke und er das musikalische Konzept und den musischen Rahmen geschaffen.</p>
+              <p>Ein Hörbuch ist in seiner Art etwas Besonderes. Mit diesem Medium erreicht der Autor, wenn er seine Schöpfung selbst vorträgt, vielleicht emotional den Hörer intensiver, als wenn Dieser es selbst liest. Auf einem Hörbuch lässt sich aber ein Foto, ein Bild, nicht wirkend unterbringen, da sie ja bekanntlich nicht zu hören sind. So haben wir uns besonders gefreut, dass die Gestaltung des Digipacks und des Buglets Herr Harald Kretzschmar übernommen hat. Zu ihm kommen wir später.</p>
+
+            </div>
+            </div>
+
+          <br><br><br><br>
+
+
+
+
+          <a name="Kontakt"><h2 class="libre text-center">Kontakt</h2></a>
           <div class="contact-footer">
-            <img src="img/footerimg.png" alt="kontank img">
-          <h2 class="libre">Kontakt</h2>
+            <img src="img/footerimg.png" alt="Kontakt img">
+
           <h4>Wie Sie uns erreichen:</h4>
           <p>Internet: www.bock-spaesse.de</p>
           <p>e-mail bock-spaesse@web.de</p>
@@ -275,5 +416,10 @@
         <!-- <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script> -->
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+
+
+
+
+
     </body>
 </html>

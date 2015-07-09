@@ -116,10 +116,23 @@ textarea {
      background: #D0C473; /* Gecko Browsers */
    }
 
+a{
+  text-decoration: none;
+  color: #000;
 
+}
+
+a:hover{
+  color: #D0C473
+}
 
  .container {
    background: #fff;
+ }
+
+ .margin-sides{
+   margin-left: 3em;
+  margin-right: 3em;
  }
 
 
