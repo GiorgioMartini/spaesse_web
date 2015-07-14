@@ -125,6 +125,12 @@ a{
   color: #000;
 
 }
+.margin-cero{
+  margin: 0 auto;
+  display: flex;
+
+  justify-content: center;
+}
 
 a:hover{
   color: #D0C473
@@ -139,7 +145,10 @@ a:hover{
   margin-right: 3em;
  }
 
-
+.main-foto{
+  width: 100%;
+  margin-bottom: 3em;
+}
 
 
 .menu{
