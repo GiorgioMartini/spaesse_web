@@ -138,6 +138,7 @@ a:hover{
 
  .container {
    background: rgba(255, 255, 255, 0.7);
+   position: relative;
  }
 
  .margin-sides{
@@ -149,11 +150,17 @@ a:hover{
   width: 100%;
   margin-bottom: 3em;
 }
-
+.curtain{
+  position: absolute;
+  top: -6em;
+  left: -30em;
+}
 
 .menu{
-text-align: center;
-margin-bottom: 6em;
+  text-align: center;
+    margin-bottom: 6em;
+    background-color: #D01313;
+    height: 1.5em;
 }
 
 
@@ -162,9 +169,17 @@ margin-bottom: 6em;
   font-weight: bold;
   padding: 1em;
   text-decoration: underline;
+  color: #D0C473;
 }
 
+.menu li a{
 
+  color: #D0C473;
+}
+
+.poems-margin{
+  margin-top: 9em;
+}
 
 @media (min-width: 1200px){
   .container {
