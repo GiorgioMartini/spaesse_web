@@ -16,6 +16,10 @@ html {
     line-height: 1.4;
 }
 
+.button-buy{
+  color: #fff;
+}
+
 .bold{
   font-weight: bold;
 }
@@ -44,6 +48,13 @@ body{
 ::selection {
     background: #b3d4fc;
     text-shadow: none;
+}
+
+.top{
+  position: absolute;
+    top: -15em;
+    transform: scale(0.7);
+    left: -16em;
 }
 
 
@@ -150,11 +161,7 @@ a:hover{
   width: 100%;
   margin-bottom: 3em;
 }
-.curtain{
-  position: absolute;
-  top: -6em;
-  left: -30em;
-}
+
 
 .menu{
   text-align: center;
@@ -252,6 +259,29 @@ width: 100%;
 .lebenslauf{
 
 }
+
+
+
+
+  .curtain{
+    position: absolute;
+      top: -6em;
+      left: -34em;
+      transform: scaleX(0.6);
+
+  }
+
+@media(min-width:992px){
+   .curtain{
+     position: absolute;
+       top: -6em;
+       left: -38.3em;
+       /* background: #00F; */
+       transform: scaleX(1);
+   }
+
+ }
+
 
 .poster{
   box-shadow: 1px 1px 5px 1px #EAEAEA;
