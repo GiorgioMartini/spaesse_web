@@ -268,7 +268,7 @@ width: 100%;
       top: -6em;
       left: -34em;
       transform: scaleX(0.6);
-
+      pointer-events: none;
   }
 
 @media(min-width:992px){
@@ -278,6 +278,7 @@ width: 100%;
        left: -38.3em;
        /* background: #00F; */
        transform: scaleX(1);
+       pointer-events: none;
    }
 
  }
