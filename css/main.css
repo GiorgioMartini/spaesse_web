@@ -164,10 +164,11 @@ a:hover{
 
 
 .menu{
-  text-align: center;
-    margin-bottom: 6em;
-    background-color: #D01313;
-    height: 1.5em;
+text-align: center;
+  margin-bottom: 6em;
+  background-color: #D01313;
+  padding: 1em;
+  margin: 0 -1.6em;
 }
 
 
