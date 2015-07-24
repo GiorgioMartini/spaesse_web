@@ -16,6 +16,18 @@ html {
     line-height: 1.4;
 }
 
+.infinite{
+  position: absolute;
+  top: 708px;
+  left: -468px;
+  background-repeat: repeat-y;
+  height: 100%;
+  width: 40.9%;
+  transform: scaleX(1.002);
+}
+
+
+
 .button-buy{
   color: #fff;
 }
@@ -252,9 +264,16 @@ width: 100%;
 .intro , .bbock, .text-table{
   text-align: left;
 }
+   .infinitetwo{
+   display: inline;
+   position: absolute;
+   top: 708px;
+   left: -467px;
+   background-repeat: repeat-y;
+   height: 100%;
+   width: 40.9%;
 
-.bbock{
-  padding: 4em 0 1em 0;
+   }
   }
 
 .lebenslauf{
@@ -272,6 +291,17 @@ width: 100%;
       pointer-events: none;
   }
 
+   .infinitetwo{
+     display: inline;
+     position: absolute;
+     top: 708px;
+     left: -225px;
+     background-repeat: repeat-y;
+     height: 100%;
+     width: 40.9%;
+     transform: scaleX(0.229);
+
+   }
 @media(min-width:992px){
    .curtain{
      position: absolute;
@@ -281,6 +311,11 @@ width: 100%;
        transform: scaleX(1);
        pointer-events: none;
    }
+
+   .infinitetwo{
+   display: none;
+   }
+
 
  }
 
