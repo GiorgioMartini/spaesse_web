@@ -16,6 +16,11 @@ html {
     line-height: 1.4;
 }
 
+
+.max{
+  max-height: 100%;
+  overflow: hidden;
+}
 .infinite{
   position: absolute;
   top: 708px;
