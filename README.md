@@ -20,4 +20,4 @@
 * its 5 subpages: home, so-funktioniert, hotel, nxstage, kramer
 * each subpage change can be committed to its separate HTML folder
 * I ll commit the issues list to README.md and screenshots to the folder `/bugs`
-* git branch is: bitb_bug_fixing_html_css
+* git branch is: `bitb_bug_fixing_html_css`
