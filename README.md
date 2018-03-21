@@ -11,3 +11,13 @@
 * 2995: Mobile - why cant I click on LOGIN?
 * 2996: Mobile - Use Cases - All of them link to HOTEL BREDENEY, but the both which arent HOTEL BREDENEY should link to their correct URL
 * 2997: Mobile - Can the closing of the menu, after I clicked a Menu item, be delayed by ~200ms ?
+
+
+
+# general
+
+* the main url from original is: https://www.bitb.innogy.com/cms/de
+* its 5 subpages: home, so-funktioniert, hotel, nxstage, kramer
+* each subpage change can be committed to its separate HTML folder
+* I ll commit the issues list to README.md and screenshots to the folder `/bugs`
+* git branch is: bitb_bug_fixing_html_css
