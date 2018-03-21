@@ -1,1 +1,13 @@
-README.md
+# issues
+
+* 2982: on Mobiles, long words are cut, it would be better of the font scales down little bit, of the container of the text holding it extends little bit
+* 2984: Font of the bullet points should be same size/style as the subheadline above
+* 2988: The boxes (oranges and purples) are not equally in their width, they should align left and right borders
+* 2989: Make the phone number clickable with <a href="tel:1-847-555-5555">1-847-555-5555</a> 
+* 2991: which graphics are missing here? Whats their real names/paths?
+* 2992: Boxes needs to have more width (approx 90% of Mobile screen)
+* 2993: Mobile - the Menu "Burger" button should be above the Word "Home" inside (!) the Menu
+* 2994: Mobile - the Menu point AKTUELLES can be removed for now
+* 2995: Mobile - why cant I click on LOGIN?
+* 2996: Mobile - Use Cases - All of them link to HOTEL BREDENEY, but the both which arent HOTEL BREDENEY should link to their correct URL
+* 2997: Mobile - Can the closing of the menu, after I clicked a Menu item, be delayed by ~200ms ?
