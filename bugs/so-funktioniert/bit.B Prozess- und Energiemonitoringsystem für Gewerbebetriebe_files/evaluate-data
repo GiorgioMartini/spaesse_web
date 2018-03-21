@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang='de'>
+<head>
+<meta content='IE=edge' http-equiv='X-UA-Compatible'>
+<meta charset='utf-8'>
+<meta content='width=device-width, initial-scale=1.0' name='viewport'>
+<title>bit.B Prozess- und Energiemonitoringsystem für Gewerbebetriebe</title>
+<meta content='https://website.lab.bitb.innogy.com/illustrationen/evaluate-data' property='og:url'>
+<meta content='page' property='og:type'>
+<meta content='bit.B Prozess- und Energiemonitoringsystem für Gewerbebetriebe' property='og:title'>
+<meta content='Mit innogy bit.B können kleine und mittelständische Unternehmen ihre Energie ganz clever managen. Das Energie-Monitoring-System erfasst Energieflüsse sowie Produktions- und Umweltdaten. So können Unternehmer sehen, wo ihre Maschinen zu viel Strom verbrauchen und gegensteuern. Auf Wunsch schlägt bit.B auch Alarm, wenn bestimmte Werte vom Normalen abweichen. Das System ist funkbasiert und lässt sich leicht nachrüsten.' property='og:description'>
+<link href='https://www.bitb.innogy.com/cms/assets/favicon/favicon-aa00c4817e90d73aec72c018cbd21241de146c03838cd040fd43c2c8ea461b6b.png' rel='shortcut icon' type='image/x-icon'>
+<link href='https://www.bitb.innogy.com/cms/assets/favicon/favicon-32x32-49bc8c70d979a8a6809c1aec678f6325c0953e341cace48f4a12f85ec792152f.png' rel='icon' sizes='32x32' type='image/png'>
+<link href='https://www.bitb.innogy.com/cms/assets/favicon/favicon-16x16-aa00c4817e90d73aec72c018cbd21241de146c03838cd040fd43c2c8ea461b6b.png' rel='icon' sizes='16x16' type='image/png'>
+<link href='https://www.bitb.innogy.com/cms/assets/favicon/favicon-128x128-b18bc1953476579587872ebf967bca0915c82e681e95378109e1553e5c920668.png' rel='icon' sizes='128x128' type='image/png'>
+<link href='https://www.bitb.innogy.com/cms/assets/favicon/favicon-64x64-611154f8828f453673c17bb14ff87d88d0593ad370c7bfbbd636f49b0bb07a83.png' rel='icon' sizes='64x64' type='image/png'>
+<link href='https://www.bitb.innogy.com/cms/assets/favicon/favicon-256x256-18d1a4f3294a66d447160ca5770bdddd68a618d48f48269e4c59b356db191fb9.png' rel='icon' sizes='256x256' type='image/png'>
+<meta content='' property='og:image'>
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="t1k/qX4OKhOQANzdY9fhZmN0KlTeFro2hzt7Ryothv4PD6Q9Rcb1qdhVf1t/wdIZa++3ToogOHfkNrAhUFSwDA==" />
+<link rel="stylesheet" media="screen" href="https://www.bitb.innogy.com/cms/assets/application-f05ae1f7bf9cb7d2fdb80dc53340915d89cad2e8d8ac6f3b93d961dd9cd73b6c.css" />
+
+<!-- Google Tag Manager -->
+<script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer', 'GTM-5R96XTH');
+</script>
+
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+<iframe height='0' src='https://www.googletagmanager.com/ns.html?id=GTM-5R96XTH' style='display:none;visibility:hidden' width='0'></iframe>
+</noscript>
+
+<div class='grid'>
+<header class='header'>
+<div class='header__left'>
+<div class='header__logo'>
+<a href="https://www.bitb.innogy.com/cms/de">bit.B</a>
+</div>
+</div>
+<div class='header__right'>
+<ul class='header__list'>
+<li class='header__list-item'>
+<a href="https://www.bitb.innogy.com/cms/de/so-funktioniert-bitb">So funktioniert bit.B</a>
+</li>
+<li class='header__list-item header__dropdown'>
+<a href="#">Anwendungsfälle</a>
+<ul>
+<li><a href="https://www.bitb.innogy.com/cms/de/hotel-bredeney">Hotel Bredeney</a></li>
+<li><a href="https://www.bitb.innogy.com/cms/de/nx-stage">NxStage</a></li>
+<li><a href="https://www.bitb.innogy.com/cms/de/kramer-schuhe">Kramer Schuhe</a></li>
+</ul>
+</li>
+<li class='header__list-item'>
+<a href="https://www.bitb.innogy.com/cms/de/faq">FAQ</a>
+</li>
+<li class='header__list-item'>
+<a href="https://www.bitb.innogy.com/cms/de#kontakt">Kontakt</a>
+</li>
+<li class='header__list-item'>
+<a class="button" href="https://www.bitb.innogy.com/de/users/sign_in">Login</a>
+</li>
+<li class='header__list-item'>
+<a href="https://www.bitb.innogy.com/cms/de">DE</a>
+| 
+<a href="https://www.bitb.innogy.com/cms/en">EN</a>
+</li>
+</ul>
+</div>
+<nav class='mobile-nav'>
+<ul class='header__mobile-list'>
+<li class='header__mobile-list-item'>
+<a class="mobile-nav__link" href="https://www.bitb.innogy.com/cms/?locale=de">Home</a>
+</li>
+<li class='header__mobile-list-item'>
+<a class="mobile-nav__link" href="https://www.bitb.innogy.com/cms/de/so-funktioniert-bitb">So funktioniert bit.B</a>
+</li>
+<li class='header__mobile-list-item'>
+Anwendungsfälle
+<ul class='header__mobile-list'>
+<li><a class="mobile-nav__link" href="https://www.bitb.innogy.com/cms/de/hotel-bredeney">Hotel Bredeney</a></li>
+<li><a class="mobile-nav__link" href="https://www.bitb.innogy.com/cms/de/hotel-bredeney">NxStage</a></li>
+<li><a class="mobile-nav__link" href="https://www.bitb.innogy.com/cms/de/hotel-bredeney">Kramer Schuhe</a></li>
+</ul>
+</li>
+<li class='header__mobile-list-item'>
+<a class="mobile-nav__link" href="https://www.bitb.innogy.com/cms/de/aktuelles">Aktuelles</a>
+</li>
+<li class='header__mobile-list-item'>
+<a class="mobile-nav__link" href="https://www.bitb.innogy.com/cms/de/faq">FAQ</a>
+</li>
+<li class='header__mobile-list-item'>
+<a class="mobile-nav__link" href="https://www.bitb.innogy.com/cms/de#kontakt">Kontakt</a>
+</li>
+<li class='header__mobile-list-item'>
+<a class="mobile-nav__link" href="https://www.bitb.innogy.com/de/users/sign_in">Login</a>
+</li>
+</ul>
+</nav>
+<button class='hamburger-nav'>
+<svg viewBox="0 0 307.34 200">
+  <g id="line_x5F_down">
+    <path d="M299.871,200.005H7.47c-4.125,0-7.47-3.337-7.47-7.47c0-4.116,3.345-7.47,7.47-7.47h292.401c4.133,0,7.47,3.354,7.47,7.47 C307.341,196.668,304.004,200.005,299.871,200.005z"></path>
+  </g>
+  <g id="line_x5F_middle">
+    <path d="M299.871,107.479H7.47c-4.125,0-7.47-3.337-7.47-7.478c0-4.117,3.345-7.47,7.47-7.47h292.401c4.133,0,7.47,3.353,7.47,7.47 C307.341,104.142,304.004,107.479,299.871,107.479z"></path>
+  </g>
+  <g id="line_x5F_top">
+    <path d="M299.871,14.944H7.47c-4.125,0-7.47-3.338-7.47-7.47c0-4.117,3.345-7.47,7.47-7.47h292.401c4.133,0,7.47,3.353,7.47,7.47 C307.341,11.606,304.004,14.944,299.871,14.944z"></path>
+  </g>
+</svg>
+
+</button>
+</header>
+
+<main class='main-content'>
+<div class='container'>
+<div class='row'>
+<div class='col-xs-12'>
+<p>404 - Seite wurde nicht gefunden</p>
+</div>
+</div>
+</div>
+
+</main>
+<footer class='footer'>
+<div class='footer__left'>
+<ul class='horizontal-list horizontal-list--left'>
+<li class='horizontal-list__item horizontal-list__item--left'>
+<a class='meta-nav__link' href='https://www.innogy.com/web/cms/de/3068486/ueber-innogy/impressum/' target='_blank'>Impressum</a>
+</li>
+<li class='horizontal-list__item horizontal-list__item--left'>
+<a class='meta-nav__link' href='https://www.innogy.com/web/cms/de/3068482/ueber-innogy/datenschutz/' target='_blank'>Datenschutz</a>
+</li>
+<li class='horizontal-list__item horizontal-list__item--left'>
+<a class='meta-nav__link' href='https://iam.innogy.com/ueber-innogy' target='_blank'>Mehr von innogy</a>
+</li>
+</ul>
+</div>
+<div class='footer__right'>
+<ul class='horizontal-list horizontal-list--right'>
+<li class='horizontal-list__item horizontal-list__item--right'>
+<div class='brand__copyright'>
+&copy; innogy
+2018
+</div>
+</li>
+</ul>
+</div>
+</footer>
+
+<div class='overlay'></div>
+
+</div>
+
+<script src="https://www.bitb.innogy.com/cms/packs/application-05bc9da7d1deb70beba8.js"></script>
+</body>
+</html>
