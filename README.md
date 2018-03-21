@@ -9,7 +9,7 @@
 * 2993: Mobile - the Menu "Burger" button should be above the Word "Home" inside (!) the Menu
 * 2994: Mobile - the Menu point AKTUELLES can be removed for now
 * 2995: Mobile - why cant I click on LOGIN?
-* 2996: Mobile - Use Cases - All of them link to HOTEL BREDENEY, but the both which arent HOTEL BREDENEY should link to their correct URL
+* 2996: Mobile - Use Cases - All of them link to HOTEL BREDENEY, but the both which arent HOTEL BREDENEY should link to their correct URL (`cms/de/kramer-schuhe` and `cms/de/nx-stage`)
 * 2997: Mobile - Can the closing of the menu, after I clicked a Menu item, be delayed by ~200ms ?
 
 
