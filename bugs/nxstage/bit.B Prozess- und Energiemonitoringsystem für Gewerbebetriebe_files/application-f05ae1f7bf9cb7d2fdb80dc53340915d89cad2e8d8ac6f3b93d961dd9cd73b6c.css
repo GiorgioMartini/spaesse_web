@@ -5227,3 +5227,12 @@ a {
 .dashboard__cards__card--videos {
   background-color: #EB4B0A;
 }
+
+
+
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 9px !important;
+  }
+}
