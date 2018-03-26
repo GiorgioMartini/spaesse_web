@@ -5241,4 +5241,6 @@ display: inline;
 .pa0{
 padding: 0;
 }
-
+.link-on-blue{
+  color: rgb(78, 78, 78);
+}
