@@ -2050,6 +2050,11 @@ a {
   background: transparent;
   cursor: pointer;
   line-height: 1rem;
+
+
+  position: absolute;
+  left: -8em;
+  top: 0.5em;
 }
 
 @media (max-width: 1000px) {
@@ -2078,25 +2083,34 @@ a {
 
 /* line 26, app/assets/stylesheets/components/_hamburger-nav.sass */
 .hamburger-nav--active {
-  -webkit-transform: translateX(-320px);
+  /*-
+  webkit-transform: translateX(-320px);
           transform: translateX(-320px);
+  */
+  left: 0;
 }
 
 @media (max-width: 680px) {
   /* line 26, app/assets/stylesheets/components/_hamburger-nav.sass */
   .hamburger-nav--active {
     right: 0;
-    -webkit-transform: translateX(-235px);
-            transform: translateX(-235px);
+    /*-webkit-transform: translateX(-235px);
+            transform: translateX(-235px);*/
   }
 }
 
 @media (max-width: 1000px) {
   /* line 26, app/assets/stylesheets/components/_hamburger-nav.sass */
   .hamburger-nav--active {
+    /*
     -webkit-transform: translateX(-270px);
             transform: translateX(-270px);
+    */
   }
+}
+
+.header__mobile-list-item:first-child{
+padding-left: 4em;
 }
 
 /* line 38, app/assets/stylesheets/components/_hamburger-nav.sass */
@@ -5295,8 +5309,11 @@ a {
 .inline{
   display: inline;
   }
-  .pa0{
-  padding: 0;
-  }
+.pa0{
+padding: 0;
+}
+.relative{
+  position: relative;
+}
   
   
